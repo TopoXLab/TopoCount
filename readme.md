@@ -99,7 +99,7 @@ d) "*4d\_eval\_game_from\_saved\_predictions.py*":
 
 
 ### Citation ###
-    @inproceedings{abousamra2020TopoCount,
+    @inproceedings{abousamra2021TopoCount,
     author      =  {Shahira Abousamra and Minh Hoai Nguyen and Dimitris Samaras and Chao Chen},
     title       =  {Localization in the Crowd with Topological  Constraints},
     booktitle   =  {AAAI Conference on Artificial Intelligence (AAAI)},
