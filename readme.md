@@ -82,18 +82,18 @@ a) "*4a\_eval\_mae\_rmse\_and\_save\_predictions.py*":
 
 b) "*4b\_eval\_cl-fscore\_from\_saved\_predictions.py*":  
 &nbsp;&nbsp;&nbsp;&nbsp; Evaluates the localization F-score by computing the F-score with distance thresholds in the range [1, 100]. The final output is the mean of all the F-scores. This is the localization evaluation metric proposed in the paper:  
-***H. Idrees et al., Composition Loss for Counting, Density Map Estimation and Localization in Dense Crowds, ECCV 2018.***  
+*H. Idrees et al., Composition Loss for Counting, Density Map Estimation and Localization in Dense Crowds, ECCV 2018.*  
 &nbsp;&nbsp;&nbsp;&nbsp; It uses prediction files already generated and saved by "*4a\_eval\_mae\_rmse\_and\_save\_predictions.py*"    
 
 c) "*4c\_eval\_raz-fscore\_from\_saved\_predictions.py*":  
 &nbsp;&nbsp;&nbsp;&nbsp; Evaluates the localization average precision and average recall using the method proposed in the paper:  
-***C. Liu et al., Recurrent Attentive Zooming for Joint Crowd Counting and Precise Localization, CVPR 2019.***  
+*C. Liu et al., Recurrent Attentive Zooming for Joint Crowd Counting and Precise Localization, CVPR 2019.*  
 &nbsp;&nbsp;&nbsp;&nbsp; It takes 2 input arguments. sigma and threshold. Check the source file for more details about possible values.   
 &nbsp;&nbsp;&nbsp;&nbsp; It uses prediction files already generated and saved by "*4a\_eval\_mae\_rmse\_and\_save\_predictions.py*"    
 
 d) "*4d\_eval\_game_from\_saved\_predictions.py*":  
 &nbsp;&nbsp;&nbsp;&nbsp; Evaluates the Grid Average Mean absolute Errors (GAME) localization evaluation metric as proposed in the paper:  
-***R. Guerrero-Gomez-Olmedo et al., Extremely Overlapping Vehicle Counting, In Pattern Recognition and Image Analysis 2015.***  
+*R. Guerrero-Gomez-Olmedo et al., Extremely Overlapping Vehicle Counting, In Pattern Recognition and Image Analysis 2015.*  
 &nbsp;&nbsp;&nbsp;&nbsp; It uses prediction files already generated and saved by "*4a\_eval\_mae\_rmse\_and\_save\_predictions.py*"    
 
 
