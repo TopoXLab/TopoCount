@@ -1,6 +1,6 @@
 # TopoCount (Localization in the Crowd with Topological Constraints) #
 
-[**Shahira Abousamra, Minh Hoai, Dimitris Samaras, Chao Chen, Localization in the Crowd with Topological Constraints, AAAI 2020.**](pdf/TopoCount.pdf)
+[**Shahira Abousamra, Minh Hoai, Dimitris Samaras, Chao Chen, Localization in the Crowd with Topological Constraints, AAAI 2021.**](pdf/TopoCount.pdf)
 
 TopoCount addresses the problem of crowd localization. Due to various challenges, a localization method is prone to spatial semantic errors, i.e., predicting multiple dots within a same person or collapsing multiple dots in a cluttered region. We propose a topological approach targeting these semantic errors. We introduce a topological constraint that teaches the model to reason about the spatial arrangement of dots. Topological reasoning improves the quality of the localization algorithm. 
 We define a persistence loss based on the theory of persistent homology. The loss compares the topographic landscape of the likelihood map and the topology of the ground truth. 
